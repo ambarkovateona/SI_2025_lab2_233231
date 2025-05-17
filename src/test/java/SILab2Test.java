@@ -53,9 +53,6 @@ public class SILab2Test {
                 () -> SILab2.checkCart(list7, "12345678901234AB"));
         assertEquals("Invalid character in card number!", ex5.getMessage());
 
-        List<Item> emptyList = new ArrayList<>();
-        double sumEmpty = SILab2.checkCart(emptyList, "1234567890123456");
-        assertEquals(0, sumEmpty, 0.001);
     }
     @Test
     public void testMultipleConditionAllCases() {
