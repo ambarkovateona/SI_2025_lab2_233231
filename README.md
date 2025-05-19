@@ -17,7 +17,7 @@
 8.	Koличина 1, цена < 300, без попуст
 9.	Валиден ред, но број на картичка краток (length < 16)	
 cardNumber = "1234"	->  RuntimeException("Invalid card number!")
-10.	Валиден ред, но картичката содржи не‑цифрен карактер	
+10.	Валиден ред, но картичката содржи карактер кој не е нумерички
 cardNumber = "12345678901234AB"-> RuntimeException("Invalid character in card number!")
     
 ### Тест случаи според критериумот Multiple Conditions
